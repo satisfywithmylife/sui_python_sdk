@@ -6,10 +6,10 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
     ],
     include_package_data=True,
-    install_requires=["httpx", "pynacl"],
+    install_requires=["httpx", "pynacl", "inflect", "slugify"],
     name="suiutils-py",
     packages=["suiutils_py"],
     url="https://github.com/satisfywithmylife/sui_python_sdk",
     python_requires=">=3.7",
-    version="1.0.8",
+    version="1.0.9",
 )
