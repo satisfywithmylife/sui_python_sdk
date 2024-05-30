@@ -3,7 +3,7 @@ setuptools.setup(
     author="shawngmy, yanjlee",
     author_email="shawngmy@gmail.com, yanjlee@163.com",
     include_package_data=True,
-    install_requires=["httpx", "pynacl", "inflect", "pick","path","GuDory2","configparser","pypandoc","python-slugify","vb-console"],
+    install_requires=["httpx", "pynacl", "inflect", "pick","path","GuDory2","configparser","pypandoc","python-slugify","vb-console","peppercorn","node","odict","certifi","charset_normalizer","docutils","idna","importlib_metadata","keyring","mdurl","more_itertools","nh3","odict","pkginfo","plumber","pygments","requests_toolbelt","readme_renderer","requests"],
     name="suiutils-py",
     long_description=open(r'README.md', encoding='utf-8').read(),  # 读取readme自述文件
     long_description_content_type="text/markdown",
